@@ -14,7 +14,7 @@ describe('cadastro de filmes',()=>{
         iamgem:""
        }
        //passar isso pra minha API
-       const resposta = await axios.post()
+       const resposta = await axios.post('http://localhost:3000/filmes',filme)
        //Esperar que minha API tenha cadastrado o filme
 
 
