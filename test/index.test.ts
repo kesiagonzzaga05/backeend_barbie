@@ -7,14 +7,14 @@ describe('primeiro teste da aplicação',()=>{
 })
 
 describe('cadastro de filmes',()=>{
-    test('espero que o filme seja cadastrado',()=>{
+    test('espero que o filme seja cadastrado',async()=>{
        const filme = {
         titulo: 'Vingadores',
         descricao:"filme marvel",
         iamgem:""
        }
        //passar isso pra minha API
-       const resposta = axios.post()
+       const resposta = await axios.post()
        //Esperar que minha API tenha cadastrado o filme
 
 
